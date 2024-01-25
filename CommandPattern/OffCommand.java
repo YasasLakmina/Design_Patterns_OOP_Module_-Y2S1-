@@ -10,7 +10,7 @@ public class OffCommand implements Command{
 	
 	@Override
 	public void execute() {
-		this.light.off();
+		this.light.off();System.out.println("Generate Report");System.out.println("Generate Report");
 		
 	}
 
